@@ -1,4 +1,4 @@
-// Get current day using moment.js
+// current day using moment.js
 var currentDay = moment().format("dddd, MMMM Do");
 
 // Set each timeblock in the daily schedule using moment.js
@@ -36,7 +36,7 @@ $.each(hours, function (index, value) {
         "<div class='col-2 save-delete' id='save-delete" + (index + 9) + "'><i class='fas fa-save' title='Save Event'></i> <i class='fas fa-trash' title='Remove Event'></i></div></div></div>");
 });
 
-// Display current day at top of planner
+// Display current day 
 $("#currentDay").text(currentDay);
 
 // Audit each time block to display past, current and future timeblocks
