@@ -20,4 +20,4 @@ WHEN I refresh the page
 THEN the saved events persist
 
 
-![landing page](css/images/image1)
+![LANDING PAGE](https://github.com/cjsopoco/work-day-scheduler/blob/main/css/images/image1.JPG)
